@@ -9,195 +9,193 @@
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <a href="#" class="logo-link">
-        <img src="images/ridgeline-logo-opt.svg" alt="Ridgeline wordmark" class="logo">
-      </a>
-      <nav class="site-nav">
-        <a href="#">Gear</a>
-        <a href="#">Trail Notes</a>
-        <a href="#">About</a>
-        <a href="#" class="nav-cta">Shop Now</a>
-      </nav>
-    </div>
-  </header>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#" class="logo-link">
+      <img src="images/ridgeline-logo-opt.svg" alt="Ridgeline wordmark" class="logo">
+    </a>
 
-  <section class="hero">
+    <nav class="site-nav">
+      <a href="#">Gear</a>
+      <a href="#">Trail Notes</a>
+      <a href="#">About</a>
+      <a href="#" class="nav-cta">Shop Now</a>
+    </nav>
+  </div>
+</header>
 
-    <img
-      src="images/hero.png"
-      srcset="
-        images/hero-400.webp 400w,
-        images/hero-800.webp 800w,
-        images/hero-1200.webp 1200w,
-        images/hero-1920.webp 1920w"
-      sizes="100vw"
-      alt="Hikers exploring a mountain trail">
+<!-- HERO -->
+<section class="hero">
 
-    <div class="hero__content">
-      <p class="hero__label">Spring / Summer 2026</p>
-      <h1 class="hero__title">Built for<br>the Trail</h1>
-      <p class="hero__sub">Technical gear for people who go further.</p>
-      <a href="#" class="btn btn--primary">Shop the Collection</a>
-    </div>
-  </section>
+  <img
+    src="images/hero-800.webp"
+    srcset="
+      images/hero-400.webp 400w,
+      images/hero-800.webp 800w,
+      images/hero-1200.webp 1200w,
+      images/hero-1920.webp 1920w"
+    sizes="100vw"
+    alt="Hikers exploring a mountain trail">
 
-  <section class="featured-gear">
+  <div class="hero__content">
+    <p class="hero__label">Spring / Summer 2026</p>
+    <h1 class="hero__title">Built for<br>the Trail</h1>
+    <p class="hero__sub">Technical gear for people who go further.</p>
+    <a href="#" class="btn btn--primary">Shop the Collection</a>
+  </div>
+
+</section>
+
+<!-- FEATURED GEAR -->
+<section class="featured-gear">
+  <div class="section-header">
+    <h2>Featured Gear</h2>
+    <p>Tested on the Gatineau Hills. Ready for anywhere.</p>
+  </div>
+
+  <div class="gear-grid">
+
+    <article class="gear-card">
+      <div class="gear-card__image">
+        <img src="images/product-jacket.webp" alt="Ridgeline Apex Shell Jacket in olive green">
+      </div>
+      <div class="gear-card__body">
+        <span class="gear-card__tag">Outerwear</span>
+        <h3 class="gear-card__title">Apex Shell Jacket</h3>
+        <p class="gear-card__desc">Three-layer construction. Fully seam-sealed. Packs into its own chest pocket.</p>
+        <div class="gear-card__footer">
+          <span class="gear-card__price">$349</span>
+          <a href="#" class="btn btn--small">View Details</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="gear-card">
+      <div class="gear-card__image">
+        <img src="images/product-boots.webp" alt="Ridgeline Summit Mid hiking boots in brown leather">
+      </div>
+      <div class="gear-card__body">
+        <span class="gear-card__tag">Footwear</span>
+        <h3 class="gear-card__title">Summit Mid Boot</h3>
+        <p class="gear-card__desc">Full-grain leather upper. Vibram outsole. Waterproof membrane.</p>
+        <div class="gear-card__footer">
+          <span class="gear-card__price">$289</span>
+          <a href="#" class="btn btn--small">View Details</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- TRAIL NOTES -->
+<section class="trail-notes">
+  <div class="trail-notes__inner">
+
     <div class="section-header">
-      <h2>Featured Gear</h2>
-      <p>Tested on the Gatineau Hills. Ready for anywhere.</p>
+      <h2>Trail Notes</h2>
+      <p>Dispatches from the field.</p>
     </div>
 
-    <div class="gear-grid">
+    <div class="notes-grid">
 
-      <article class="gear-card">
-        <div class="gear-card__image">
-          <img src="images/product-jacket.webp" alt="Ridgeline Apex Shell Jacket in olive green">
+      <article class="note-card">
+        <div class="note-card__image">
+          <img src="images/note-rideau.webp" alt="A hiker crossing a wooden bridge on the Rideau Trail">
         </div>
-        <div class="gear-card__body">
-          <span class="gear-card__tag">Outerwear</span>
-          <h3 class="gear-card__title">Apex Shell Jacket</h3>
-          <p class="gear-card__desc">Three-layer construction. Fully seam-sealed. Packs into its own chest pocket. The jacket you grab without thinking.</p>
-          <div class="gear-card__footer">
-            <span class="gear-card__price">$349</span>
-            <a href="#" class="btn btn--small">View Details</a>
-          </div>
+        <div class="note-card__body">
+          <span class="note-card__tag">Gear Review</span>
+          <span class="note-card__date">March 2026</span>
+          <h3>Five Days on the Rideau Trail</h3>
         </div>
       </article>
 
-      <article class="gear-card">
-        <div class="gear-card__image">
-          <img src="images/product-boots.webp" alt="Ridgeline Summit Mid hiking boots in brown leather">
+      <article class="note-card">
+        <div class="note-card__image">
+          <img src="images/note-gatineau.webp" alt="Snow-covered trees on a Gatineau Hills winter trail">
         </div>
-        <div class="gear-card__body">
-          <span class="gear-card__tag">Footwear</span>
-          <h3 class="gear-card__title">Summit Mid Boot</h3>
-          <p class="gear-card__desc">Full-grain leather upper. Vibram outsole. Waterproof membrane. Broken in after 10km, reliable for the next 1,000.</p>
-          <div class="gear-card__footer">
-            <span class="gear-card__price">$289</span>
-            <a href="#" class="btn btn--small">View Details</a>
-          </div>
+        <div class="note-card__body">
+          <span class="note-card__tag">How To</span>
+          <span class="note-card__date">February 2026</span>
+          <h3>How to Layer for Winter Hiking</h3>
+        </div>
+      </article>
+
+      <article class="note-card">
+        <div class="note-card__image">
+          <img src="images/note-supply.webp" alt="A textile factory floor with workers at sewing machines">
+        </div>
+        <div class="note-card__body">
+          <span class="note-card__tag">Sustainability</span>
+          <span class="note-card__date">January 2026</span>
+          <h3>Why We Rebuilt Our Supply Chain</h3>
         </div>
       </article>
 
     </div>
-  </section>
 
-  <section class="trail-notes">
-    <div class="trail-notes__inner">
-      <div class="section-header">
-        <h2>Trail Notes</h2>
-        <p>Dispatches from the field.</p>
-      </div>
+  </div>
+</section>
 
-      <div class="notes-grid">
+<!-- BANNER -->
+<section class="landscape-banner">
 
-        <article class="note-card">
-          <div class="note-card__image">
-            <img src="images/note-rideau.webp" alt="A hiker crossing a wooden bridge on the Rideau Trail">
-          </div>
-          <div class="note-card__body">
-            <div class="note-card__meta">
-              <span class="note-card__tag">Gear Review</span>
-              <span class="note-card__date">March 2026</span>
-            </div>
-            <h3>Five Days on the Rideau Trail: What Held Up</h3>
-            <p>We took the full Apex kit north of Kingston for a five-day loop. Here's what surprised us, what didn't, and what we'd do differently.</p>
-            <a href="#" class="text-link">Read more →</a>
-          </div>
-        </article>
+  <picture>
+    <source media="(max-width: 768px)" srcset="images/banner-portrait.webp">
+    <source media="(min-width: 769px)" srcset="images/banner-wide.webp">
+    <img src="images/banner-wide.webp" alt="A misty forest trail at dawn">
+  </picture>
 
-        <article class="note-card">
-          <div class="note-card__image">
-            <img src="images/note-gatineau.webp" alt="Snow-covered trees on a Gatineau Hills winter trail">
-          </div>
-          <div class="note-card__body">
-            <div class="note-card__meta">
-              <span class="note-card__tag">How To</span>
-              <span class="note-card__date">February 2026</span>
-            </div>
-            <h3>How to Layer for a Gatineau Winter Hike</h3>
-            <p>Minus 20 and clear skies. The Gatineau Hills in February are brutal and beautiful. Your layering system makes or breaks the day.</p>
-            <a href="#" class="text-link">Read more →</a>
-          </div>
-        </article>
+  <div class="landscape-banner__content">
+    <h2>Every trail<br>has a story.</h2>
+    <p>Ridgeline gear is built for the ones worth telling.</p>
+    <a href="#" class="btn btn--outline">Find Your Trail</a>
+  </div>
 
-        <article class="note-card">
-          <div class="note-card__image">
-            <img src="images/note-supply.webp" alt="A textile factory floor with workers at sewing machines">
-          </div>
-          <div class="note-card__body">
-            <div class="note-card__meta">
-              <span class="note-card__tag">Sustainability</span>
-              <span class="note-card__date">January 2026</span>
-            </div>
-            <h3>Why We Rebuilt Our Supply Chain from Scratch</h3>
-            <p>Three years ago we started over. We'll tell you exactly why — and what it cost us to do the right thing.</p>
-            <a href="#" class="text-link">Read more →</a>
-          </div>
-        </article>
+</section>
 
-      </div>
-    </div>
-  </section>
+<!-- FOOTER -->
+<footer class="site-footer">
 
-  <section class="landscape-banner">
-
-    <picture>
-      <source media="(max-width: 768px)" srcset="images/banner-portrait.webp">
-      <source media="(min-width: 769px)" srcset="images/banner-wide.webp">
-      <img src="images/banner-wide.webp" alt="A misty forest trail at dawn">
-    </picture>
-
-    <div class="landscape-banner__content">
-      <h2>Every trail<br>has a story.</h2>
-      <p>Ridgeline gear is built for the ones worth telling.</p>
-      <a href="#" class="btn btn--outline">Find Your Trail</a>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <p class="footer-logo-text">RIDGELINE</p>
-        <p class="footer-tagline">Ottawa-made. Trail-tested.</p>
-      </div>
-
-      <div class="footer-links">
-        <div class="footer-col">
-          <h4>Shop</h4>
-          <a href="#">Outerwear</a>
-          <a href="#">Footwear</a>
-          <a href="#">Accessories</a>
-          <a href="#">Sale</a>
-        </div>
-
-        <div class="footer-col">
-          <h4>Company</h4>
-          <a href="#">About Us</a>
-          <a href="#">Trail Notes</a>
-          <a href="#">Sustainability</a>
-          <a href="#">Careers</a>
-        </div>
-
-        <div class="footer-col">
-          <h4>Support</h4>
-          <a href="#">Sizing Guide</a>
-          <a href="#">Returns</a>
-          <a href="#">Warranty</a>
-          <a href="#">Contact</a>
-        </div>
-      </div>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <p class="footer-logo-text">RIDGELINE</p>
+      <p class="footer-tagline">Ottawa-made. Trail-tested.</p>
     </div>
 
-    <div class="footer-base">
-      <p>© 2026 Ridgeline Gear Co. All rights reserved.</p>
-      <p>Designed and built in Ottawa, ON.</p>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <a href="#">Outerwear</a>
+        <a href="#">Footwear</a>
+        <a href="#">Accessories</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Trail Notes</a>
+        <a href="#">Sustainability</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="#">Sizing Guide</a>
+        <a href="#">Returns</a>
+        <a href="#">Contact</a>
+      </div>
     </div>
-  </footer>
+  </div>
+
+  <div class="footer-base">
+    <p>© 2026 Ridgeline Gear Co.</p>
+    <p>Designed and built in Ottawa, ON.</p>
+  </div>
+
+</footer>
 
 </body>
 </html>
